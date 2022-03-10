@@ -1,0 +1,56 @@
+.wrap2 {
+  text-align: left;
+}
+.ad {
+}
+.txt1 {
+  color: hsl(0, 36%, 70%);
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 15px;
+}
+.txt2,
+.txt3 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 15px;
+  padding-top: 5px;
+  color: hsl(0, 6%, 24%);
+}
+.txt4 {
+  color: hsl(0, 36%, 70%);
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+input {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  height: 50px;
+  border: 2px solid hsl(0, 36%, 70%);
+  border-radius: 25px 25px 25px 25px;
+  padding-left: 30px;
+}
+input:focus {
+  outline: none;
+  border: 2px solid hsl(0, 36%, 70%);
+}
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.button {
+  width: 100px;
+  background-color: hsl(0, 93%, 68%);
+  border-radius: 25px 25px 25px 25px;
+  height: 54px;
+  border: 2px solid hsl(0, 36%, 70%);
+  position: 75% 0;
+  margin-left: -75px;
+}
+.contact {
+  position: relative;
+  display: flex;
+}

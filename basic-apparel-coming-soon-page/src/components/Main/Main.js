@@ -2,15 +2,21 @@ import React from "react";
 import "./Main.css";
 import Header from "../Header/Header";
 import Banner from "../Banner/Banner";
-import Search from "../Search/Search";
+import Contact from "../Contact/Contact";
 
 function Main() {
   return (
     <div className="container">
       <div className=" innerContainer">
-        <Header />
-        <Banner />
-        {/* <Search /> */}
+        <div className="left">
+          <div className="wrapper">
+            <Header />
+            <Contact />
+          </div>
+        </div>
+        <div className="right">
+          <Banner />
+        </div>
       </div>
     </div>
   );

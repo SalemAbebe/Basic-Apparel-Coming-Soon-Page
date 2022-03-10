@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="banner">
       <img
-        src={process.env.PUBLIC_URL + "/images/hero-mobile.jpg"}
+        src={process.env.PUBLIC_URL + "/images/hero-desktop.jpg"}
         alt="banner"
       />
     </div>
